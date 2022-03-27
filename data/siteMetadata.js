@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: "HexClan",
+  title: 'HexClan',
   author: 'Hosenur Rahaman',
   headerTitle: 'HexClan',
   description: 'Hexclan, Coding Community',
@@ -10,7 +10,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'nur08439@gmail.com',
+  email: 'mail@hosenur.dev',
   github: 'https://github.com/HOSENUR',
   twitter: 'https://twitter.com/hosenurdev',
   locale: 'en-US',
@@ -27,7 +27,6 @@ const siteMetadata = {
     // supports mailchimp, buttondown, convertkit, klaviyo
     // Please add your .env file and modify it according to your selection
     provider: 'mailchimp',
-    
   },
   comment: {
     // If you want to use a commenting system other than giscus you have to add it to the
