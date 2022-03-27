@@ -1,0 +1,36 @@
+---
+title: Cool Stuffs with your Old PC
+date: '2022-03-28'
+tags: ['linux', 'code', 'features']
+draft: false
+summary: Have an old PC lying around? Here's some cool stuff you can do with it.
+---
+
+If you are like me and have a PC that you don't use anymore, you can build some really cool stuff with it.I have my personal Media Server, Network Storage, and have a few websites hosted which I use for my personal needs and stuff and still couldnt utilize all of my storage space.
+
+_Note: All of the stuffs here can be accessed remotely but in this tutorial we are not gonna do that also you can use a cloud provider like Linode / Digital Ocean / Vultr if you want_
+
+## What are we gonna build?
+
+- A Media Server
+- Network Storage
+- Host A Website
+
+## Gearing UP
+
+Assuming you know how to install Linux, install your favourite, update & upgrade your system, and we are ready to get started.
+
+## Media Server
+
+**What is a media server?**
+
+_Store all your movies, videos, images and music in one place and easily connect any device and start streaming_
+
+Talking of media server, Plex is the most popular media server out there, but there's one issue, it's not free. So we will go for an opensource alternative [Emby](https://emby.media/download.html)
+
+1. Download the latest version of [Emby](https://emby.media/download.html) Linux
+2. Open a terminal and navigate to the downloads folder: `cd ~/Downloads`
+3. Install Emby: `sudo dpkg -i emby-server-deb_4.6.7.0_amd64.deb`
+4. Create a folder named `media` in your home directory and copy your favourite movies, series, music and images to this folder.
+5. Open a terminal and add your user to emby `usermod -a -G username emby`
+6. And that's it! navigate to [http://localhost:8096](http://localhost:8096) and you should be able to access your media server, add users, and add the media folder to your library. And now you have your own movie streaming platform.

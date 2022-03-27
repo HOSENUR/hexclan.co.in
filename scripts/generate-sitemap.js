@@ -63,5 +63,5 @@ const siteMetadata = require('../data/siteMetadata')
   })
 
   // eslint-disable-next-line no-sync
-  fs.writeFileSync('public/sitemap.xml', formatted)
+  fs.writeFileSync('../public/sitemap.xml', formatted)
 })()

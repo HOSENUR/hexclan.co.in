@@ -10,7 +10,7 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'mail@hosenur.dev',
+  email: 'mail@hexclan.co.in',
   github: 'https://github.com/HOSENUR',
   twitter: 'https://twitter.com/hosenurdev',
   locale: 'en-US',
